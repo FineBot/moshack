@@ -1,0 +1,22 @@
+
+.indicator{
+  display: flex;
+  z-index: 99;
+  margin-left: -5px;
+  position: absolute;
+
+
+  .component{
+
+    height: 8px;
+    width: 8px;
+    background-color: #BBCFFF;
+    margin: 5px;
+    margin-top: 50px;;
+
+    border-radius: 15px;
+  }
+  .component[active=true]{
+    background-color: #0044CC;
+  }
+}
